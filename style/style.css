@@ -26,3 +26,11 @@ span {
     color: white;
     font-family: 'Red Rose', cursive;
 }
+
+.cursor {
+    opacity: 0;
+}
+
+.active {
+    opacity: 1;
+}

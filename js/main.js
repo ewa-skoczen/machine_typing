@@ -22,3 +22,9 @@ const addLetter = () => {
 }
 
 setTimeout(addLetter, 500);
+
+const cursorAnimation = () => {
+    spnCursor.classList.toggle('active');
+}
+
+setInterval(cursorAnimation, 400);
